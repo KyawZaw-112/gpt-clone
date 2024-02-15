@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/outline'
+import Vector from "@/public/Vector";
 const page = () => {
   return (
     <div className="text-white flex-col flex h-screen items-center">
       <div className="mb-3 mt-10 border p-2 rounded-full border-gray-600">
-        <Image src={"./Vector.svg"} alt={"icon"} width={20} height={20} />
+        <Vector />
       </div>
       <h1 className="text-2xl font-medium mb-12">How can I help you today?</h1>
       <div className="flex space-x-2 text-center px-3">
